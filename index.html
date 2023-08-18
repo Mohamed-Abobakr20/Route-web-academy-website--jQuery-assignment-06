@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Academy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="vh-100" id="home">
+      <nav class="fixed-top bg-white shadow">
+        <div
+          class="container d-flex justify-content-between align-items-center">
+          <a id="logo" href="#" class="py-3 fs-5 fw-bold text-decoration-none">Web
+            Academy</a>
+          <i id="menuIcon" class="fa-solid fa-bars py-3 fs-5" role="button"></i>
+          <div class="menu">
+            <i
+              class="fa-solid fa-xmark p-3 fs-4 text-white w-25 text-center ms-auto d-block"
+              role="button"></i>
+            <ul class="list-unstyled mt-5">
+              <li>
+                <a
+                  href="#home"
+                  class="text-white text-decoration-none px-4 py-3 fs-5 d-block">Home</a>
+              </li>
+              <li>
+                <a
+                  href="#details"
+                  class="text-white text-decoration-none px-4 py-3 fs-5 d-block">Details</a>
+              </li>
+              <li>
+                <a
+                  href="#duration"
+                  class="text-white text-decoration-none px-4 py-3 fs-5 d-block">Duration</a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="text-white text-decoration-none px-4 py-3 fs-5 d-block">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div
+        class="layer h-100 bg-black bg-opacity-75 d-flex justify-content-center align-items-center text-white text-center">
+        <div class="container">
+          <h1 class="mb-4">Welcome to our academy!</h1>
+          <p class="m-auto fs-5" style="width: 95%">
+            Web development is the building and maintenance of websites; it’s
+            the work that happens behind the scenes to make a website look
+            great, work fast and perform well with a seamless user experience.
+          </p>
+          <button class="btn mt-4 px-4">Learn more</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <a href="#home" id="toTop"
+        class="m-3 p-2 rounded-2 text-decoration-none"><i
+          class="fa-solid fa-arrow-up fs-5 px-2 py-1"></i></a>
+
+      <div id="details" class="my-5 py-3">
+        <div class="container">
+          <h2 class="text-center fs-1 mb-5">Our Courses</h2>
+          <div class="row g-4 align-items-center">
+            <div class="img col-md-5 rounded-3">
+              <img src="images/courses.png" class="w-100" alt="courses">
+            </div>
+            <div class="courses col-md-7">
+              <div class="course">
+                <h4 class="d-flex justify-content-between align-items-center"><span
+                    class="w-75">HTML Course</span><i
+                    class="fa-solid fa-plus w-25 text-end"></i><i
+                    class="fa-solid fa-minus w-25 text-end"></i></h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Veritatis esse tempore quo alias officiis ipsam! Possimus
+                  ratione cupiditate inventore cumque sit atque id ex, magni
+                  quasi magnam error tenetur earum amet blanditiis, voluptas
+                  debitis quae?</p>
+              </div>
+              <div class="course">
+                <h4 class="d-flex justify-content-between align-items-center"><span
+                    class="w-75">CSS Course</span><i
+                    class="fa-solid fa-plus w-25 text-end"></i><i
+                    class="fa-solid fa-minus w-25 text-end"></i></h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et,
+                  labore animi quos enim illo atque nemo illum quaerat mollitia
+                  similique perferendis eligendi dolore commodi qui optio hic,
+                  vero aliquam corrupti reprehenderit delectus rerum eos
+                  assumenda!</p>
+              </div>
+              <div class="course">
+                <h4 class="d-flex justify-content-between align-items-center"><span
+                    class="w-75">JS Course</span><i
+                    class="fa-solid fa-plus w-25 text-end"></i><i
+                    class="fa-solid fa-minus w-25 text-end"></i></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Neque voluptatem quam fugiat, excepturi eveniet a dolorem
+                  magni minus delectus doloribus maxime accusantium iusto
+                  aspernatur nemo eius provident, exercitationem, officia facere
+                  placeat ab. Culpa, excepturi magni.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="duration" class="py-5">
+        <div class="container">
+          <h2 class="text-center mb-5 text-white">We will start the first round
+            after.</h2>
+          <div id="counter" class="row text-center fs-5 text-white">
+            <div class="col-md-3">
+              <p class="days bg-white p-3"><span>23</span> days</p>
+            </div>
+            <div class="col-md-3">
+              <p class="hours bg-white p-3"><span>23</span> hours</p>
+            </div>
+            <div class="col-md-3">
+              <p class="minutes bg-white p-3"><span>23</span> minutes</p>
+            </div>
+            <div class="col-md-3">
+              <p class=" seconds bg-white p-3"><span>23</span> seconds</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="contact" class="my-5">
+        <h2 class="text-center fs-1 mb-5">Join Us</h2>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="info">
+                <h3>Contact Info</h3>
+                <p class="py-3">Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Sed, at. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit. Sed, at.</p>
+                <ul class="list-unstyled mt-2">
+                  <li><i class="fa-solid fa-location-dot me-3"></i> New Street
+                    22545, Nexa Road, New York City, USA</li>
+                  <li><i class="fa-solid fa-envelope me-2 my-3"></i>
+                    hello@uigrid.com</li>
+                  <li><i class="fa-solid fa-phone me-2"></i> 001-000-000-000</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form">
+                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="email" class="form-control my-3"
+                  placeholder="Your Email">
+                <textarea cols="30" rows="7" class="form-control"
+                  placeholder="Enter your message..." minlength="0"
+                  maxlength="100"></textarea>
+                <p class="mt-2"><span class="text-danger fw-bold">100</span>
+                  characters remaining</p>
+                <button class="btn text-white">Send Message</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

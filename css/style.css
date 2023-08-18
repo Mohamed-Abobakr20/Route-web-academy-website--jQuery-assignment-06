@@ -1,0 +1,118 @@
+header {
+    background-image: url("../images/bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav {
+    transition: all .5s;
+}
+
+.nav-scroll {
+    background-color: #1D1E2E !important;
+}
+
+.nav-scroll i, .nav-scroll a {
+    color: white !important;
+}
+
+.menu {
+    position: absolute;
+    width: 300px;
+    height: 100vh;
+    background-color: #47476D;
+    right: -300px;
+    top: 0;
+}
+
+#logo, #menuIcon, h2 {
+    color: #1D1E2E;
+}
+
+/* --------------------------------------------------- */
+h4 {
+    background-color: #1D1E2E;
+    color: white;
+    padding: 8px;
+    margin: 0;
+}
+
+.course:nth-child(1) i.fa-minus {
+    display: block;
+}
+
+.course:nth-child(1) i.fa-plus, .course i.fa-minus {
+    display: none;
+}
+
+
+.course p {
+    padding: 8px;
+    color: gray;
+    display: none;
+}
+
+.course:nth-child(1) p {
+    display: block;
+}
+
+
+/* ---------------------------------------------------- */
+.btn, #toTop {
+    background-color: #47476D;
+    color: white;
+}
+
+#toTop {
+    width: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+    width: fit-content;
+}
+
+.btn:hover {
+    opacity: .8 !important;
+    background-color: #47476D;
+}
+
+.fa-xmark:hover {
+    color: #1D1E2E !important;
+}
+
+nav ul li, .fa-xmark {
+    transition: all .5s;
+}
+
+nav ul li:hover, #duration {
+    background-color: #1D1E2E;
+}
+
+#duration p {
+    color: #1D1E2E;
+    font-weight: bold;
+}
+
+#duration p span {
+    color: #47476D;
+}
+
+/* -------------------------------- */
+#contact {
+    color: #1D1E2E;
+}
+
+ul li i {
+    color: #47476D;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #47476D !important;
+}
